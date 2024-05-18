@@ -1,0 +1,70 @@
+.land{
+  margin: 0;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 100vw;
+  min-height: 100vh;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.sign-up-container {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 100vw;
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: black;
+}
+
+.sign-up-form {
+  text-align: center;
+  color: white;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.sign-up-form input {
+  margin-bottom: 30px; /* Increased margin for better spacing */
+  padding: 15px; /* Larger padding */
+  border-radius: 8px; /* Larger border radius */
+  border: 2px solid white; /* Thicker border */
+  background-color: transparent;
+  color: white;
+  width: 300px; /* Increased width */
+  transition: transform 0.3s ease; /* Added transition for parallax effect */
+}
+
+.sign-up-form input:hover {
+  transform: translateY(-5px); /* Parallax effect on hover */
+  box-shadow: 0 0 10px limegreen; /* Lime green shadow border effect */
+}
+
+.sign-up-form button {
+  background-color: #4CAF50; /* Vibrant green background */
+  color: white; /* White text color */
+  padding: 15px 30px; /* Larger padding */
+  border: none;
+  border-radius: 8px; /* Larger border radius */
+  cursor: pointer;
+  width: 250px; /* Increased width */
+  font-size: 18px; /* Larger font size */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Added transition for both parallax and shadow effect */
+}
+
+.sign-up-form button:hover {
+  transform: translateY(-5px); /* Parallax effect on hover */
+  box-shadow: 0 0 20px limegreen; /* Lime green shadow border effect */
+}
+
+/* Make the "Sign Up" text relatively smaller */
+.sign-up-form h2 {
+  color: #4CAF50; /* Green color */
+  font-size: 24px; /* Relative smaller font size */
+}
