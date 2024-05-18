@@ -10,13 +10,11 @@
     flex-direction: column;
     position: relative; /* Added position relative for positioning the menu icon */
   }
-  
   .search-bar {
     margin-top: 20px;
     align-items: center;
     display:inline-block;
   }
-  
   .search-bar input[type="text"] {
     padding: 10px;
     border-radius: 8px;
